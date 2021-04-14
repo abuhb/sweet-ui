@@ -6,7 +6,7 @@
     <p>Colours</p>
     <nav>
         {% for colour in site.colours %}
-        <a id="{{ colour.id }}" href="https://abuhb.github.io/sweet-ui/{{ colour.id }}">
+        <a id="{{ colour.id }}" href="https://abuhb.github.io/sweet-ui{{ colour.id }}">
           {{ colour.title }}
         </a>
         {% endfor %}
@@ -14,7 +14,7 @@
     <p>Components</p>
     <nav>
         {% for component in site.components %}
-    <a id="{{ component.id }}" href="https://abuhb.github.io/sweet-ui/{{ component.id }}">
+    <a id="{{ component.id }}" href="https://abuhb.github.io/sweet-ui{{ component.id }}">
       {{ component.title }}
     </a>
     {% endfor %}
