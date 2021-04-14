@@ -1,12 +1,12 @@
 <aside>
 <nav>     
-<a id="intro" href="/">Introduction</a>
-<a id="layout" href="/layout">Layout</a>
+<a id="intro" href="https://abuhb.github.io/sweet-ui/">Introduction</a>
+<a id="layout" href="https://abuhb.github.io/sweet-ui/layout">Layout</a>
 </nav>   
     <p>Colours</p>
     <nav>
         {% for colour in site.colours %}
-        <a id="{{ colour.id }}" href="{{ colour.id }}">
+        <a id="{{ colour.id }}" href="https://abuhb.github.io/sweet-ui/{{ colour.id }}">
           {{ colour.title }}
         </a>
         {% endfor %}
@@ -14,7 +14,7 @@
     <p>Components</p>
     <nav>
         {% for component in site.components %}
-    <a id="{{ component.id }}" href="{{ component.id }}">
+    <a id="{{ component.id }}" href="https://abuhb.github.io/sweet-ui/{{ component.id }}">
       {{ component.title }}
     </a>
     {% endfor %}
