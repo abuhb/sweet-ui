@@ -17,7 +17,7 @@ minima:
   date_format: "%b %-d, %Y"
 
 theme: minima
-baseurl: https://abuhb.github.io/sweet-ui/
+# baseurl: https://abuhb.github.io/sweet-ui/
 
 plugins:
   - jekyll-seo-tag
