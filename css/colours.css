@@ -17,6 +17,7 @@
 
 .nhs-light-green {
   background-color: #ccead7 !important;
+  color: #000;
 }
 .nhs-green {
   background-color: #2e7d32 !important;
@@ -25,6 +26,10 @@
 .nhs-dark-green {
   background: #006747 !important;
   color: #fff !important;
+}
+
+.nhs-light-green:hover {
+  color: #000;
 }
 
 .nhs-light-yellow {

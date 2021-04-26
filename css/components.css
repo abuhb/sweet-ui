@@ -291,7 +291,6 @@ h5 {
   display: none;
   position: absolute;
   right: 0px;
-  background-color: #e8edee;
   min-width: 160px;
   padding: 2px;
   z-index: 1;
@@ -311,7 +310,7 @@ h5 {
   text-decoration: none;
   border-radius: 5pt 10pt;
   font-size: 1rem;
-  margin: 2px 0px;
+  margin: 5px 4px;
 }
 
 /* nhs-modal */
@@ -534,7 +533,7 @@ footer {
 
 .nhs-main {
   margin: 40px 20px 30px 20px;
-  min-height: calc(100vh - 208px);
+  min-height: calc(100vh - 648px);
 }
 
 .nhs-logo {

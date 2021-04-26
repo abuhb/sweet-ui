@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | CWSA</title>
-    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/components.css" />
-    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/colours.css" />
+    <link rel="stylesheet" href="/sweet-ui/css/components.css" />
+    <link rel="stylesheet" href="/sweet-ui/css/colours.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -57,7 +57,7 @@
       #advanced-search input {
         padding: 10px;
         border-radius: 5pt;
-        border-color: green;
+        border-color: #ccead7;
         border-style: solid;
         margin-top: 10px;
       }
@@ -118,8 +118,10 @@
           </a>
 
           <div class="nhs-dropdown">
-            <span class="nhs-btn nhs-fancy2"> jake </span>
-            <div class="nhs-dropdown-content-right">
+            <span class="nhs-btn nhs-fancy2"
+              ><i class="fas fa-user"></i>&nbsp; emma
+            </span>
+            <div class="nhs-dropdown-content-right nhs-dark-grey">
               <a href="#" class="nhs-red">CWSA Admin</a>
               <a href="#">Preferences</a>
               <a href="#" class="nhs-yellow">Log Out</a>
@@ -129,7 +131,7 @@
       </div>
     </header>
 
-    <div id="advanced-search" class="nhs-light-green">
+    <div id="advanced-search" class="nhs-green">
       <div class="nhs-flex">
         <div>
           <p>
@@ -153,25 +155,24 @@
             <input type="date" name="" id="" />
           </p>
         </div>
-</div>
-          <p>
-            <input type="radio" id="male" name="sex" value="male" checked />
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="sex" value="female" />
-            <label for="female">Female</label>
-            <input type="radio" id="other" name="sex" value="other" />
-            <label for="other">Other</label>
-          </p>
+      </div>
+      <p>
+        <input type="radio" id="male" name="sex" value="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="sex" value="other" />
+        <label for="other">Other</label>
+      </p>
 
-      <a href="" class="nhs-btn nhs-green">Advanced Search</a>
+      <a href="" class="nhs-btn-md nhs-light-green">Advanced Search</a>
     </div>
 
     <section class="nhs-hero nhs-fancy">
-        <h1>Welcome to Clinical Workstation Anywhere</h1>
-      </section>
+      <h1>Welcome to Clinical Workstation Anywhere</h1>
+    </section>
 
     <main class="nhs-main">
-
       <h1>Welcome</h1>
       <p>text</p>
     </main>
@@ -179,12 +180,11 @@
     <footer class="nhs-fancy2">
       <div class="nhs-container">
         <i class="fas fa-laptop-medical"></i> Clinical Workstation Anywhere
-        (CWSA) © ABUHB 2021.
+        (CWSA) © <i class="fas fa-dragon"></i> ABUHB 2021.
       </div>
     </footer>
 
     <!-- Advanced Search Show/hide -->
-
     <script>
       function advsearchclick() {
         var advancedSearchBanner = document.getElementById("advanced-search");
