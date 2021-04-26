@@ -552,12 +552,8 @@ footer {
   width: 100%;
 }
 
-.hide-xs {
-  display: none;
-}
-
 .nhs-mob-bar {
-  display: none;
+  display: flexbox;
 }
 
 /* Some Resets */
@@ -569,7 +565,7 @@ footer {
 }
 
 /* Responsive Small Screens */
-@media only screen and (max-width: 80px) {
+@media only screen and (max-width: 780px) {
   .pt-banner {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -605,5 +601,13 @@ footer {
   }
   #pt-ext4 {
     grid-area: 2 / 3 / 3 / 5;
+  }
+
+  .hide-xs {
+    display: none;
+  }
+
+  .nhs-btn {
+    padding: 5px 10px;
   }
 }
