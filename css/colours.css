@@ -79,6 +79,27 @@
   color: #fff !important;
 }
 
+.nhs-fancy-text {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e54e9,
+    #4776e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Noto Sans", sans-serif;
+}
+
 .nhs-text-red {
   color: #da291c !important;
+}
+
+.nhs-text-white {
+  color: #fff !important;
 }

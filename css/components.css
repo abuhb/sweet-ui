@@ -252,7 +252,7 @@ h5 {
   padding-top: 16px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #003087;
+  background: #003087;
   color: white;
 }
 
@@ -479,6 +479,85 @@ details > summary::-webkit-details-marker {
 }
 
 /* Layout */
+
+header {
+  height: 100px;
+  background: #e8edee;
+  font-weight: 600;
+}
+
+header a {
+  color: rgba(119, 44, 232, 1);
+  margin: 0px 15px 0px 0px;
+}
+
+header i {
+  font-size: 1.5rem;
+}
+
+.nhs-h-box {
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.nhs-search-b {
+  display: flex;
+  justify-content: center;
+}
+
+.nhs-search {
+  display: flex;
+}
+
+.nhs-search .nhs-btn {
+  padding: 5px;
+}
+
+.nhs-search i {
+  font-size: 1.5rem;
+}
+
+.nhs-header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer {
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 1rem;
+  background: #e8edee;
+}
+
+.nhs-main {
+  margin: 40px 20px 30px 20px;
+  min-height: calc(100vh - 208px);
+}
+
+.nhs-logo {
+  font-size: 3.5rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+.nhs-flex {
+  display: flex;
+}
+
+.nhs-flex > div {
+  width: 100%;
+}
+
+.hide-xs {
+  display: none;
+}
+
+.nhs-mob-bar {
+  display: none;
+}
 
 /* Some Resets */
 .nhs-btn:hover,
