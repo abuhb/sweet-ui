@@ -22,6 +22,7 @@
         border-radius: 5pt 0pt 0pt 10pt;
         border-color: green;
         border-style: solid;
+        width: 120px;
       }
 
       .nhs-search > .nhs-dropdown {
@@ -30,8 +31,9 @@
 
       .search-dropdown {
         height: 40px;
-        margin: 0px 0px 0px -30px;
+        margin: 0px 0px 0px -35px;
         color: rgb(75, 209, 13);
+        cursor: pointer;
       }
 
       .nhs-search .nhs-search-button {
@@ -72,7 +74,8 @@
       }
 
       .nhs-logo {
-        font-weight: 400;
+        font-weight: 500;
+        color: #0072ce;
       }
 
     </style>
@@ -83,7 +86,7 @@
         <div class="nhs-h-box">
           <a
             href="/"
-            class="nhs-logo nhs-fancy-text"
+            class="nhs-logo"
             aria-label="Go to the homepage"
           >
             CWSA
@@ -94,8 +97,9 @@
             <input
               type="text"
               class="form-control"
-              placeholder="NHS# or CRN"
+              placeholder="NHS or CRN"
               aria-label="Patient Search"
+              maxlength="10"
             />
 
             <div class="nhs-dropdown">
@@ -103,15 +107,14 @@
                 class="search-dropdown"
                 aria-label="Advanced Search"
                 onclick="advsearchclick()"
-                ><i class="fas fa-chevron-down"></i
-              ></span>
+                ><i class="fas fa-search"></i
+                  ></span>
             </div>
             <a
               class="nhs-search-button"
               type="button"
               aria-label="Patient Search Button"
-              ><i class="fas fa-search"></i
-            ></a>
+              ><i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div class="nhs-h-box nhs-header-nav">
@@ -171,7 +174,7 @@
         <label for="other">Other</label>
       </p>
 
-      <a href="" class="nhs-btn-md nhs-blue">Advanced Search</a>
+      <a href="" class="nhs-btn-md nhs-light-blue">Advanced Search</a>
     </div>
 
     <section class="nhs-hero nhs-bright-blue">
