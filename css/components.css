@@ -1,6 +1,6 @@
 /* Automatic Styles */
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap");
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -482,16 +482,18 @@ details > summary::-webkit-details-marker {
 header {
   height: 100px;
   background: #e8edee;
-  font-weight: 600;
 }
 
 header a {
-  color: rgba(119, 44, 232, 1);
+  color: #003087;
   margin: 0px 15px 0px 0px;
+  padding-bottom: 3px;
+  font-weight: 600;
 }
 
 header i {
   font-size: 1.5rem;
+  margin-right: 4px;
 }
 
 .nhs-h-box {
