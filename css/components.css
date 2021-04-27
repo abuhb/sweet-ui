@@ -580,7 +580,7 @@ footer {
 
 .nhs-logo {
   font-size: 3.5rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .nhs-flex {
@@ -713,8 +713,7 @@ footer {
   }
 
   .nhs-logo {
-    font-size: 2.4rem;
-    font-weight: 400;
+    font-size: 2.6rem;
   }
 
   .nhs-main {
