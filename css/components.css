@@ -661,11 +661,6 @@ footer {
   color: black;
 }
 
-.active {
-  background-color: #4caf50;
-  color: white;
-}
-
 /* Responsive Small Screens */
 @media screen and (max-width: 767px) {
   .pt-banner {
