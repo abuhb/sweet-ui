@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | CWSA</title>
-    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/components.css" />
-    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/colours.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/colours.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -14,38 +14,6 @@
     />
 
     <style>
-      *:focus {
-        outline: none;
-      }
-      .nhs-search > input {
-        padding: 12px;
-        border-radius: 5pt 0pt 0pt 10pt;
-        border-color: green;
-        border-style: solid;
-        width: 140px;
-        font-size: 1.2rem;
-      }
-
-      .nhs-search > .nhs-dropdown {
-        margin-top: 12px;
-      }
-
-      .search-dropdown {
-        height: 40px;
-        margin: 10px 10px 0px -35px;
-        color: #425563;
-        cursor: pointer;
-      }
-
-      .nhs-search .nhs-search-button {
-        height: 36px;
-        padding: 12px 10px 2px 10px;
-        border-radius: 0pt 10pt 5pt 0pt;
-        margin: 0px 0px 0px -5px;
-        background: green;
-        color: #fff;
-      }
-
       .nhs-hero {
         width: 100%;
         border-radius: 0px !important;
@@ -57,28 +25,12 @@
         z-index: 1;
       }
 
-      #advanced-search input {
-        padding: 10px;
-        border-radius: 5pt;
-        border-color: #0072ce;
-        border-style: solid;
-        margin-top: 10px;
-        font-size: 1.2rem;
-        max-width: 140px;
-      }
-
-      #advanced-search {
+      #mob-menu {
         display: none;
-        text-align: center;
       }
 
       .show {
         display: block !important;
-      }
-
-      .nhs-logo {
-        font-weight: 500;
-        color: #0072ce;
       }
 
       .usr-button {
@@ -91,12 +43,46 @@
         margin-right: 0px;
       }
 
+      /* Hamburger */
+
+.mobnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.mobnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.mobnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mobnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
     </style>
   </head>
   <body>
     <header class="nhs-light-grey">
       <div class="nhs-container nhs-flex">
-        <div class="nhs-h-box">
+        <div id="logo" class="nhs-h-box">
           <a
             href="/"
             class="nhs-logo"
@@ -105,7 +91,7 @@
             CWSA
           </a>
         </div>
-        <div class="nhs-h-box nhs-search-b hide-xs">
+        <div class="nhs-h-box nhs-search-b">
           <div class="nhs-search">
             <input
               type="text"
@@ -130,18 +116,18 @@
               ><i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
-        <div class="nhs-h-box nhs-header-nav">
+        <div class="nhs-h-box nhs-header-nav nhs-hide-xs">
           <a href="#" aria-label="Go to Ward List">
-            <span class="hide-xs"><i class="fas fa-bed"></i></span> Wards
+            <i class="fas fa-bed"></i> <span class="nhs-hide-xs">Wards</span>
           </a>
           <a href="#" aria-label="Go to Caseload List">
-            <span class="hide-xs"><i class="fas fa-briefcase-medical"></i></span> Caseload
+            <i class="fas fa-briefcase-medical"></i> <span class="nhs-hide-xs">Caseload</span>
           </a>
 
           <div class="nhs-dropdown">
             <span class="nhs-btn nhs-dark-grey usr-button"
               >
-              <span class="hide-xs"><i class="fas fa-user"></i>&nbsp; </span>Jake
+              <i class="fas fa-user"></i>&nbsp; <span class="nhs-hide-xs">Jake</span>
             </span>
             <div class="nhs-dropdown-content-right nhs-dark-grey">
               <a href="#" class="nhs-red">CWSA Admin</a>
@@ -152,6 +138,29 @@
         </div>
       </div>
     </header>
+
+<div class="nhs-mob-bar">
+  
+  <div class="mobnav">
+    <a
+      href="/"
+      class="active"
+      aria-label="Go to the homepage"
+    >
+      Dashboard
+    </a>
+    <div id="mob-menu">
+      <a href="#contact">Wards</a>
+      <a href="#about">Caseload</a>
+      <a href="#about">Preferences</a>
+      <a href="#about">Log out</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="mobmenuclick()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+</div>
 
     <div id="advanced-search" class="nhs-dark-blue">
       <div class="nhs-flex nhs-container">
@@ -209,10 +218,15 @@
 
     <!-- Advanced Search Show/hide -->
     <script>
+      function mobmenuclick() {
+        var advancedSearchBanner = document.getElementById("mob-menu");
+        advancedSearchBanner.classList.toggle("show");
+      }
       function advsearchclick() {
         var advancedSearchBanner = document.getElementById("advanced-search");
         advancedSearchBanner.classList.toggle("show");
       }
     </script>
+
   </body>
 </html>
