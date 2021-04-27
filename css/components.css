@@ -513,6 +513,10 @@ header i {
   justify-content: center;
 }
 
+.nhs-search-b {
+  justify-content: center;
+}
+
 .nhs-search > input {
   padding: 12px;
   border-radius: 5pt 0pt 0pt 10pt;
