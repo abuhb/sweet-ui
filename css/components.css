@@ -23,7 +23,7 @@ h5 {
   font-weight: 500;
 }
 .nhs-container {
-  max-width: 1600px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -537,7 +537,7 @@ header i {
 }
 
 .nhs-search .nhs-search-button {
-  padding: 16px 10px 0px 15px;
+  padding: 0px 10px 0px 15px;
   border-radius: 0pt 10pt 5pt 0pt;
   margin: 0px 0px 0px -5px;
   background: green;
