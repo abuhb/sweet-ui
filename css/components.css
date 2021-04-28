@@ -728,7 +728,7 @@ footer {
 
   .nhs-main {
     margin: 20px 10px 15px 10px;
-    min-height: calc(100vh - 462px);
+    min-height: calc(100vh - 240px);
   }
 
   .nhs-main-home {
