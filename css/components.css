@@ -250,6 +250,7 @@ h5 {
 
 .nhs-table tr:hover {
   background-color: #d8f0fc;
+  cursor: pointer;
 }
 
 .nhs-table th {
