@@ -6,7 +6,7 @@ title: "Menu"
 Content
 
 <nav class="nhs-h-menu">
-<a href="#">Item 1</a>
+<a href="#"><i class="fas fa-home"></i></a>
 <div class="nhs-dropdown">
 <span>Item 2</span>
   <div class="nhs-dropdown-content">
