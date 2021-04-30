@@ -71,6 +71,7 @@ h5 {
   display: inline-block;
   font-size: 1.2rem;
   margin: 10px 0px;
+  border-style: none;
 }
 
 .nhs-btn-md {
@@ -82,6 +83,7 @@ h5 {
   font-size: 1.4rem;
   display: inline-block;
   margin: 10px 0px;
+  border-style: none;
 }
 
 .nhs-btn-lg {
@@ -93,6 +95,7 @@ h5 {
   font-size: 1.6rem;
   display: inline-block;
   margin: 10px 0px;
+  border-style: none;
 }
 
 /* nhs-alert */
