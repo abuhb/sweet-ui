@@ -62,22 +62,6 @@ Patient banner shows the active patient selected in the system.
         </div>
     </div>
 
-<script>
-            var acc = document.getElementsByClassName("pt-banner");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-            </script>
-
 <div id="code">
 &lt;div class="pt-banner"&gt;<br>
 &nbsp; &lt;div id="pt-name"&gt;Jake
@@ -163,27 +147,6 @@ Mellons&lt;br /&gt;<br>
 &nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>
 &nbsp; &lt;/div&gt;<br>
 &lt;/div&gt;<br>
-<br>
-&lt;script&gt;<br>
-&nbsp; var acc = document.getElementsByClassName("pt-banner");<br>
-&nbsp; var i;<br>
-<br>
-&nbsp; for (i = 0; i &lt; acc.length; i++) {<br>
-&nbsp;&nbsp;&nbsp; acc[i].addEventListener("click",
-function() {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; var panel =
-this.nextElementSibling;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if
-(panel.style.display === "block") {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-panel.style.display = "none";<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } else {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-panel.style.display = "block";<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
-&nbsp;&nbsp;&nbsp; });<br>
-&nbsp; }<br>
-&lt;/script&gt;
 
 </div>
 

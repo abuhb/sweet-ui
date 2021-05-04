@@ -200,6 +200,44 @@ h5 {
 
 /* nhs-list */
 
+/* nhs-biglist */
+
+.nhs-biglist-btn {
+  padding: 10px 20px;
+  background: #00a9ce;
+  color: #fff;
+  border-radius: 5pt 10pt;
+  font-size: 1.3rem;
+}
+
+#nhs-biglist-content {
+  display: none;
+  width: 300px;
+  background-color: #e6f6fa;
+  border-radius: 5pt 10pt;
+  margin-top: -15px;
+  margin-left: 10px;
+  padding: 8px 2px;
+  position: absolute;
+}
+
+#nhs-biglist-content input {
+  width: 265px;
+  border-color: #00a9ce;
+}
+
+#nhs-biglist-filter {
+  max-height: 400px;
+  overflow: auto;
+}
+
+#nhs-biglist-filter a {
+  padding: 8px 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 /* nhs-tooltip */
 
 .nhs-tooltip {
@@ -666,6 +704,24 @@ footer {
 
 *:focus {
   outline: none;
+}
+
+button {
+  border: 0;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pdisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.range {
+  background-color: #c2ffec !important;
+  width: 100px;
 }
 
 *,
