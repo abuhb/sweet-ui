@@ -226,6 +226,7 @@ h5 {
   border-color: #00a9ce;
   border-style: solid;
   border-radius: 5pt 10pt;
+  padding: 10px;
 }
 
 #nhs-biglist-filter {
