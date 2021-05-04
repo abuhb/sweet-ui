@@ -207,7 +207,7 @@ h5 {
   background: #00a9ce;
   color: #fff;
   border-radius: 5pt 10pt;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 #nhs-biglist-content {
@@ -215,7 +215,7 @@ h5 {
   width: 300px;
   background-color: #e6f6fa;
   border-radius: 5pt 10pt;
-  margin-top: 5px;
+  margin-top: -10px;
   margin-left: 10px;
   padding: 8px 2px;
   position: absolute;
