@@ -215,8 +215,8 @@ h5 {
   width: 300px;
   background-color: #e6f6fa;
   border-radius: 5pt 10pt;
-  margin-top: -10px;
-  margin-left: 10px;
+  margin-top: -8px;
+  margin-left: 8px;
   padding: 8px 2px;
   position: absolute;
 }
@@ -224,6 +224,8 @@ h5 {
 #nhs-biglist-content input {
   width: 265px;
   border-color: #00a9ce;
+  border-style: solid;
+  border-radius: 5pt 10pt;
 }
 
 #nhs-biglist-filter {
