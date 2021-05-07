@@ -875,4 +875,16 @@ button {
 .nhs-hide-print {
   display: none;
 }
+  
+  @page {
+  size: A4 landscape;
+}
+
+@page :left {
+  margin-left: 1cm;
+}
+
+@page :right {
+  margin-right: 1cm;
+}
 }
