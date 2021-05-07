@@ -878,7 +878,9 @@ button {
 }
   
 @page {
+  margin: 0;
   size: A4 landscape;
+  font-size: 11pt;
 }
 
 @page :left {
