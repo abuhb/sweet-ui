@@ -780,6 +780,10 @@ button {
   .nhs-show-xs {
     display: block;
   }
+  
+  .nhs-hide-print {
+  display: block;
+}
 
   .nhs-btn {
     padding: 5px 10px;
