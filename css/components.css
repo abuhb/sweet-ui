@@ -867,7 +867,8 @@ button {
 }
 
 /* Printing Views */
-
+@media print {
 .nhs-hide-print {
   display: none;
+}
 }
