@@ -865,3 +865,9 @@ button {
     display: block;
   }
 }
+
+/* Printing Views */
+
+.nhs-hide-print {
+  display: none;
+}
