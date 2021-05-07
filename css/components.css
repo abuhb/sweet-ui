@@ -872,19 +872,20 @@ button {
 
 /* Printing Views */
 @media print {
+  
 .nhs-hide-print {
   display: none;
 }
   
-  @page {
+@page {
   size: A4 landscape;
 }
 
 @page :left {
-  margin-left: 1cm;
+  margin-left: 0.5cm;
 }
 
 @page :right {
-  margin-right: 1cm;
+  margin-right: 0.5cm;
 }
 }
