@@ -29,7 +29,7 @@ Adding sweet.ui Components to an app or site is simple by adding some lines into
 #### Add above &lt;/body&gt; tag
 
 <div id="code">
-<p>&lt;script src="https://abuhb.github.io/sweet-ui/js/scripts.js"&gt;&lt;/script&gt;</p>
+<p>&lt;script src="https://abuhb.github.io/sweet-ui/js/script.js"&gt;&lt;/script&gt;</p>
 </div>
 
 <script>
