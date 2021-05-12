@@ -795,7 +795,7 @@ button {
 
   .nhs-main {
     margin: 20px 10px 15px 10px;
-    min-height: calc(100vh - 240px);
+    min-height: calc(100vh - 226px);
   }
 
   .nhs-main-home {
