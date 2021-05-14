@@ -309,18 +309,16 @@ h5 {
 /* PatientTable */
 .nhs-patient-table {
   border-collapse: collapse;
-  width: Calc(100% - 30px);
+  width: 100%;
   border-width: 1px;
   border-color: #003087;
   border-bottom-style: solid;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
 .nhs-patient-table th {
   background: blueviolet;
   color: #fff;
-  padding: 20px 0px;
+  padding: 20px 10px 15px 10px;
   text-align: left;
 }
 
