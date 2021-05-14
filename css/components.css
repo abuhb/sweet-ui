@@ -317,39 +317,39 @@ h5 {
   margin-right: 15px;
 }
 
-        .nhs-patient-table th {
-            background: blueviolet;
-            color: #fff;
-            padding: 20px 12px 15px 12px;
-            text-align: left;
-        }
+.nhs-patient-table th {
+  background: blueviolet;
+  color: #fff;
+  padding: 20px 0px;
+  text-align: left;
+}
 
-        .nhs-patient-table td {
-            padding: 15px 9px 10px 9px;
-        }
+.nhs-patient-table td {
+  padding: 15px 9px 10px 9px;
+}
 
-        .nhs-patient-table tr:nth-child(even) {
-            background-color: #e8edee;
-        }
+.nhs-patient-table tr:nth-child(even) {
+  background-color: #e8edee;
+}
 
-        .nhs-patient-table tr:nth-child(odd) {
-            background-color: #fff;
-        }
+.nhs-patient-table tr:nth-child(odd) {
+  background-color: #fff;
+}
 
-        .nhs-patient-card {
-            background: #eceeef;
-            border-radius: 5pt 10pt;
-            padding: 14px 10px;
-        }
+.nhs-patient-card {
+  background: #eceeef;
+  border-radius: 5pt 10pt;
+  padding: 14px 10px;
+}
 
-        .nhs-patient-card label {
-            color: #003087;
-            margin-right: 10px;;
-        }
+.nhs-patient-card label {
+  color: #003087;
+  margin-right: 10px;
+}
 
-        .nhs-pt-name {
-            font-size: 1.8rem;;
-        }
+.nhs-pt-name {
+  font-size: 1.8rem;
+}
 
 /* nhs-menu */
 .nhs-h-menu {
@@ -690,8 +690,8 @@ footer {
 }
 
 .nhs-show-xs {
-            display: none;
-        }
+  display: none;
+}
 
 /* CWSA Layout */
 .nhs-hero2 {
@@ -829,10 +829,10 @@ button {
   .nhs-show-xs {
     display: block;
   }
-  
+
   .nhs-hide-print {
-  display: block;
-}
+    display: block;
+  }
 
   .nhs-btn {
     padding: 5px 10px;
@@ -921,22 +921,21 @@ button {
 
 /* Printing Views */
 @media print {
-  
-.nhs-hide-print {
-  display: none;
-}
-  
-@page {
-  margin: 0;
-  size: A4 landscape;
-  font-size: 11pt;
-}
+  .nhs-hide-print {
+    display: none;
+  }
 
-@page :left {
-  margin-left: 0.5cm;
-}
+  @page {
+    margin: 0;
+    size: A4 landscape;
+    font-size: 11pt;
+  }
 
-@page :right {
-  margin-right: 0.5cm;
-}
+  @page :left {
+    margin-left: 0.5cm;
+  }
+
+  @page :right {
+    margin-right: 0.5cm;
+  }
 }
