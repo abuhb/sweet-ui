@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweet-ui NHS Patient Table</title>
+    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/components.css">
+    <link rel="stylesheet" href="https://abuhb.github.io/sweet-ui/css/colours.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+    <!-- Optional to add FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+</head>
+<body>
+    <main class="nhs-main">
+        <h1 class="fancy-text">PatientTable</h1>
+
+<table class="nhs-patient-table nhs-hide-xs">
+    <thead>
+        <tr>
+            <th>Bed</th>
+            <th>Patient</th>
+            <th>Alerts</th>
+            <th>Specialty</th>
+            <th>Consultant</th>
+            <th>Admitted</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A01</td>
+            <td>Jake Testerson<br />
+            <label>DOB:</label> 14/07/1984<br />
+        <label>CRN:</label> 123456</td>
+            <td><ul class="nhs-text-red">
+
+            <li>Smoker</li>
+            <li>Diabetes</li>
+            <li>Fabulous</li>
+                
+            </ul></td>
+            <td>Renal</td>
+            <td>Mr Jones</td>
+            <td>14/05/2021</td>
+        </tr>
+        <tr>
+            <td>A03</td>
+            <td>Jackie Testerton<br />
+            <label>DOB</label> 18/10/1950<br />
+        <label>CRN</label> 789321</td>
+            <td><ul class="nhs-text-red">
+                <li>Blind</li>
+                <li>Diabetes</li>
+            </ul></td>
+            <td>Renal</td>
+            <td>Mr Jones</td>
+            <td>14/05/2021</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="nhs-show-xs">
+    <!-- Mobile -->
+
+<div class="nhs-patient-card">
+    <span class="nhs-pt-name"><label>A01</label> Jake Testerson</span>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>DOB</label> 14/07/1984</div>
+        <div style="width: 100%"><label>CRN</label> 123456</div>
+    </div>
+    <p>
+        <span class="nhs-tag nhs-red">Smoker</span>
+        <span class="nhs-tag nhs-red">Diabetes</span>
+        <span class="nhs-tag nhs-red">Fabulous</span>
+    </p>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>Sex</label> Unknown</div>
+        <div style="width: 100%"><label>Admitted</label> 14/05/2021</div>
+    </div>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>Specialty</label> Renal</div>
+        <div style="width: 100%"><label>Consultant</label> Mr Jones</div>
+    </div>
+</div>
+
+<div class="nhs-patient-card">
+    <span class="nhs-pt-name"><label>A03</label> Jackie Testerson</span>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>DOB</label> 18/10/1950</div>
+        <div style="width: 100%"><label>CRN</label> 789321</div>
+    </div>
+    <p>
+        <span class="nhs-tag nhs-red">Blind</span>
+        <span class="nhs-tag nhs-red">Diabetes</span>
+    </p>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>Sex</label> Female</div>
+        <div style="width: 100%"><label>Admitted</label> 14/05/2021</div>
+    </div>
+    <div class="nhs-flex">
+        <div style="width: 100%"><label>Specialty</label> Renal</div>
+        <div style="width: 100%"><label>Consultant</label> Mr Jones</div>
+    </div>
+</div>
+
+</div>
+
+    </main>
+    <script src="https://abuhb.github.io/sweet-ui/js/script.js"></script>
+</body>
+</html>
