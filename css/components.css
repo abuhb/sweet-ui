@@ -920,6 +920,10 @@ button {
   #advanced-search .nhs-flex {
     display: block;
   }
+  
+  .nhs-biglist-btn {
+    padding: 5px 10px;
+  }
 }
 
 /* Printing Views */
