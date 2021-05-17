@@ -36,9 +36,14 @@
   background-color: #fef9cc !important;
   color: #000 !important;
 }
+
 .nhs-yellow {
   background-color: #fae100 !important;
   color: #000 !important;
+}
+
+.nhs-orange {
+ background-color: #ED8B00 !important; 
 }
 
 .nhs-light-red {
