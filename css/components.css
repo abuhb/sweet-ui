@@ -311,12 +311,12 @@ h5 {
   border-collapse: collapse;
   width: 100%;
   border-width: 1px;
-  border-color: #006747;
+  border-color: #005EB8;
   border-bottom-style: solid;
 }
 
 .nhs-patient-table th {
-  background: #006747;
+  background: #005EB8;
   color: #fff;
   padding: 20px 10px 15px 10px;
   text-align: left;
