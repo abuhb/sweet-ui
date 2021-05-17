@@ -924,6 +924,10 @@ button {
   .nhs-biglist-btn {
     padding: 5px 10px;
   }
+  
+  .nhs-pt-name {
+    font-size: 1.2rem;
+  }
 }
 
 /* Printing Views */
