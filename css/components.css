@@ -172,7 +172,7 @@ h5 {
   padding: 1rem 2rem;
   margin-right: 0.1rem;
   cursor: pointer;
-  background: #0072ce;
+  background: #e8edee;
   color: #fff;
   font-weight: bold;
   transition: background ease 0.2s;
@@ -184,7 +184,8 @@ h5 {
   width: 100%;
   display: none;
   padding: 1rem;
-  background: #e8edee;
+  background: #003087 !important;
+  color: #fff;
   border-radius: 0pt 10pt 5pt 10pt;
 }
 .nhs-tabs > input[type="radio"] {
