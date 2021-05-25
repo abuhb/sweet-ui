@@ -166,7 +166,7 @@ h5 {
   display: flex;
   flex-wrap: wrap;
 }
-.nhs-tabs label {
+.nhs-tab {
   order: 1;
   display: block;
   padding: 1rem 2rem;
@@ -311,12 +311,12 @@ h5 {
   border-collapse: collapse;
   width: 100%;
   border-width: 1px;
-  border-color: #005EB8;
+  border-color: #005eb8;
   border-bottom-style: solid;
 }
 
 .nhs-patient-table th {
-  background: #005EB8;
+  background: #005eb8;
   color: #fff;
   padding: 20px 10px 15px 10px;
   text-align: left;
@@ -920,11 +920,11 @@ button {
   #advanced-search .nhs-flex {
     display: block;
   }
-  
+
   .nhs-biglist-btn {
     padding: 5px 10px;
   }
-  
+
   .nhs-pt-name {
     font-size: 1.2rem;
   }
