@@ -578,9 +578,11 @@ details > summary::-webkit-details-marker {
 
 /* NHS Card for Box */
 .nhs-card {
+  margin: 5px;
   padding: 10px;
   background: #e8edee;
   color: #000;
+  border-radius: 5pt 10pt;
 }
 
 /* Layout */
