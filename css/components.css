@@ -576,6 +576,13 @@ details > summary::-webkit-details-marker {
   grid-area: 2 / 1 / 3 / 6;
 }
 
+/* NHS Card for Box */
+.nhs-card {
+  padding: 10px;
+  background: #e8edee;
+  color: #000;
+}
+
 /* Layout */
 
 header {
