@@ -173,7 +173,7 @@ h5 {
   margin-right: 0.1rem;
   cursor: pointer;
   background: #e8edee;
-  color: #fff;
+  color: #000;
   font-weight: bold;
   transition: background ease 0.2s;
   border-radius: 5pt 10pt 0pt 0pt;
@@ -192,8 +192,8 @@ h5 {
   display: none;
 }
 .nhs-tabs input[type="radio"]:checked + label {
-  background: #e8edee;
-  color: #000;
+  background: #003087;
+  color: #fff;
 }
 .nhs-tabs input[type="radio"]:checked + label + .tab {
   display: block;
