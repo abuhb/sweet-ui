@@ -187,7 +187,7 @@ h5 {
   background: #e8edee;
   border-radius: 0pt 10pt 5pt 10pt;
 }
-.nhs-tab > input[type="radio"] {
+.nhs-tab input[type="radio"] {
   display: none;
 }
 .nhs-tabs input[type="radio"]:checked + label {
