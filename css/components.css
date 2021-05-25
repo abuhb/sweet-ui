@@ -780,6 +780,10 @@ button {
   width: 100px;
 }
 
+.nhs-hide {
+  display: none;
+}
+
 *,
 ::after,
 ::before {
