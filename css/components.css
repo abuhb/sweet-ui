@@ -327,13 +327,6 @@ h5 {
   padding: 15px 9px 10px 9px;
 }
 
-.nhs-patient-table tr {
-  border-collapse: collapse;
-  border-width: 1px;
-  border-color: #768692;
-  border-bottom-style: solid;
-}
-
 .nhs-patient-table tr:nth-child(even) {
   background-color: #e8edee;
 }
