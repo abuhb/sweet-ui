@@ -328,8 +328,9 @@ h5 {
 }
 
 .nhs-patient-table tr {
+  border-collapse: collapse;
   border-width: 1px;
-  border-color: #005eb8;
+  border-color: #768692;
   border-bottom-style: solid;
 }
 
