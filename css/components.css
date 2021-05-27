@@ -325,6 +325,7 @@ h5 {
 
 .nhs-patient-table td {
   padding: 15px 9px 10px 9px;
+  vertical-align: top;
 }
 
 .nhs-patient-table tr:nth-child(even) {
