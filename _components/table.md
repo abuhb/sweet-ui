@@ -4,15 +4,17 @@ title: "Table"
 ---
 
 <table class="nhs-table">
-        <thead class="nhs-blue">
+        <thead>
+        <tr class="nhs-blue">
             <th>Ward</th>
             <th>Bed</th>
             <th>Patient</th>
             <th>Consultant</th>
             <th>Status</th>
+            </tr>
         </thead>
         <tbody>
-        <tr>
+        <tr class="nhs-link-rows">
             <td>A7</td>
             <td>1</td>
             <td>Jim Testerson</td>
