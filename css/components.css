@@ -592,12 +592,12 @@ footer {
 
 .nhs-main {
   margin: 40px 20px 30px 20px;
-  min-height: calc(100vh - 278px);
+  min-height: calc(100vh - 316px);
 }
 
 .nhs-main-home {
   margin: 40px 20px 30px 20px;
-  min-height: calc(100vh - 678px);
+  min-height: calc(100vh - 716px);
 }
 
 .nhs-logo {
