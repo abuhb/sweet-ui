@@ -310,7 +310,7 @@ h5 {
 }
 
 .nhs-table th:last-child {
-  background: pink;
+  border-radius: 0pt 10pt 0pt 0pt;
 }
 
 /* PatientTable */
