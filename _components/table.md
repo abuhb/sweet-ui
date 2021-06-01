@@ -20,8 +20,8 @@ title: "Table"
             <td>Jim Testerson</td>
             <td>Mr Jones</td>
             <td>Waiting Discharge</td>
-            </tr>
-                   <tr>
+        </tr>
+        <tr>
             <td>A7</td>
             <td>1</td>
             <td>Jim Testerson</td>
@@ -34,61 +34,47 @@ title: "Table"
             <td>Jim Testerson</td>
             <td>Mr Jones</td>
             <td>Waiting Discharge</td>
-            </tr>
+        </tr>
         </tbody>
     </table>
 
 <div id="code">
-&lt;table class="nhs-table"&gt;<br>
-&nbsp; &lt;thead class="nhs-blue"&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;th&gt;Ward&lt;/th&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;th&gt;Bed&lt;/th&gt;<br>
-&nbsp;&nbsp;&nbsp;
-&lt;th&gt;Patient&lt;/th&gt;<br>
-&nbsp;&nbsp;&nbsp;
-&lt;th&gt;Consultant&lt;/th&gt;<br>
-&nbsp;&nbsp;&nbsp;
-&lt;th&gt;Status&lt;/th&gt;<br>
-&nbsp; &lt;/thead&gt;<br>
-&nbsp; &lt;tbody&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;A7&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;1&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Jim Testerson&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Mr
-Jones&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Waiting Discharge&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;A7&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;1&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Jim Testerson&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Mr
-Jones&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Waiting Discharge&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;A7&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;1&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Jim Testerson&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;td&gt;Mr
-Jones&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&lt;td&gt;Waiting Discharge&lt;/td&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
-&nbsp; &lt;/tbody&gt;<br>
-&lt;/table&gt;<br>
+<div>
+<div><span>&lt;</span><span>table</span><span>&nbsp;</span><span>class</span><span>=</span><span>"nhs-table"</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>thead</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>tr</span><span>&nbsp;</span><span>class</span><span>=</span><span>"nhs-blue"</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>th</span><span>&gt;</span><span>Ward</span><span>&lt;/</span><span>th</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>th</span><span>&gt;</span><span>Bed</span><span>&lt;/</span><span>th</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>th</span><span>&gt;</span><span>Patient</span><span>&lt;/</span><span>th</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>th</span><span>&gt;</span><span>Consultant</span><span>&lt;/</span><span>th</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>th</span><span>&gt;</span><span>Status</span><span>&lt;/</span><span>th</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>thead</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>tbody</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>tr</span><span>&nbsp;</span><span>class</span><span>=</span><span>"nhs-link-rows"</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>A7</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>1</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Jim&nbsp;Testerson</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Mr&nbsp;Jones</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Waiting&nbsp;Discharge</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>A7</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>1</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Jim&nbsp;Testerson</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Mr&nbsp;Jones</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Waiting&nbsp;Discharge</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>A7</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>1</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Jim&nbsp;Testerson</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Mr&nbsp;Jones</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;</span><span>td</span><span>&gt;</span><span>Waiting&nbsp;Discharge</span><span>&lt;/</span><span>td</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>tr</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>tbody</span><span>&gt;</span></div>
+<div><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span>&lt;/</span><span>table</span><span>&gt;</span></div>
+</div>
 
 </div>
 
