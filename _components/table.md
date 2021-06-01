@@ -4,7 +4,7 @@ title: "Table"
 ---
 
 <table class="nhs-table">
-        <thead>
+        <thead class="nhs-blue">
             <th>Ward</th>
             <th>Bed</th>
             <th>Patient</th>
@@ -36,10 +36,9 @@ title: "Table"
         </tbody>
     </table>
 
-
 <div id="code">
 &lt;table class="nhs-table"&gt;<br>
-&nbsp; &lt;thead&gt;<br>
+&nbsp; &lt;thead class="nhs-blue"&gt;<br>
 &nbsp;&nbsp;&nbsp; &lt;th&gt;Ward&lt;/th&gt;<br>
 &nbsp;&nbsp;&nbsp; &lt;th&gt;Bed&lt;/th&gt;<br>
 &nbsp;&nbsp;&nbsp;
