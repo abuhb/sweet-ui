@@ -299,6 +299,12 @@ h5 {
   cursor: pointer;
 }
 
+.nhs-table th {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
 .nhs-table thead:first-child {
   background: green;
 }
@@ -306,8 +312,6 @@ h5 {
 .nhs-table thead:last-child {
   background: pink;
 }
-
-.nhs-table th 
 
 /* PatientTable */
 .nhs-patient-table {
