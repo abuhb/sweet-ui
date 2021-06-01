@@ -305,7 +305,7 @@ h5 {
   text-align: left;
 }
 
-.nhs-table th:first-child {
+.nhs-table > thead > th:first-child {
   background: green;
 }
 
