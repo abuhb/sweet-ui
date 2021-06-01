@@ -305,11 +305,11 @@ h5 {
   text-align: left;
 }
 
-.nhs-table thead:first-child {
+.nhs-table th:first-child {
   background: green;
 }
 
-.nhs-table thead:last-child {
+.nhs-table th:last-child {
   background: pink;
 }
 
