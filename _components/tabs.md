@@ -3,75 +3,50 @@ layout: page
 title: "Tabs"
 ---
 
-Content
+<div class="nhs-container nhs-tabs">
 
-<div class="nhs-tabs">
-<input type="radio" name="tabs" id="tabone" checked="checked" />
-<label for="tabone">Tab One</label>
-<div class="tab">
-<h3>Tab One Content</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<input type="radio" class="nhs-hide" name="tabs" id="tabone" checked="checked" />
+  <label class="nhs-tab" for="tabone">First Tab</label>
+    <div class="tab">
+      <div class="nhs-container">
+        <p>Content in the first tab.</p>
+      </div>
+    </div>
+
+  <input type="radio" class="nhs-hide" name="tabs" id="tabtwo" />
+    <label class="nhs-tab" for="tabtwo">Second Tab</label>
+    <div class="tab">
+      <div class="nhs-container">
+        <p>Content in the second tab.</p>
+      </div>
+    </div>
+
 </div>
-<input type="radio" name="tabs" id="tabtwo" />
-<label for="tabtwo">Tab Two</label>
-<div class="tab">
-<h3>Tab Two Content</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
- 
-<input type="radio" name="tabs" id="tabthree" />
-<label for="tabthree">Tab Three</label>
-<div class="tab">
-<h3>Tab Three Content</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</div>
-</div>
+
+
 
 <div id="code">
-&lt;div class="nhs-tabs"&gt;<br>
-&nbsp; &lt;input type="radio" name="tabs" id="tabone"
-checked="checked" /&gt;<br>
-&nbsp; &lt;label for="tabone"&gt;Tab
-One&lt;/label&gt;<br>
-&nbsp; &lt;div class="tab"&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;h3&gt;Tab One
-Content&lt;/h3&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;p&gt;Lorem ipsum dolor sit
-amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.&lt;/p&gt;<br>
-&nbsp; &lt;/div&gt;<br>
-&nbsp; &lt;input type="radio" name="tabs" id="tabtwo" /&gt;<br>
-&nbsp; &lt;label for="tabtwo"&gt;Tab
-Two&lt;/label&gt;<br>
-&nbsp; &lt;div class="tab"&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;h3&gt;Tab Two
-Content&lt;/h3&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;p&gt;Lorem ipsum dolor sit
-amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.&lt;/p&gt;<br>
-&nbsp; &lt;/div&gt;<br>
-<br>
-&nbsp; &lt;input type="radio" name="tabs" id="tabthree"
-/&gt;<br>
-&nbsp; &lt;label for="tabthree"&gt;Tab
-Three&lt;/label&gt;<br>
-&nbsp; &lt;div class="tab"&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;h3&gt;Tab Three
-Content&lt;/h3&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;p&gt;Lorem ipsum dolor sit
-amet, consectetur adipisicing elit.&lt;/p&gt;<br>
-&nbsp; &lt;/div&gt;<br>
-&lt;/div&gt;<br>
+<div>
+<div>&lt;div&nbsp;class="nhs-container&nbsp;nhs-tabs"&gt;</div>
+<br />
+<div>&lt;input&nbsp;type="radio"&nbsp;class="nhs-hide"&nbsp;name="tabs"&nbsp;id="tabone"&nbsp;checked="checked"&nbsp;/&gt;</div>
+<div>&nbsp;&nbsp;&lt;label&nbsp;class="nhs-tab"&nbsp;for="tabone"&gt;First&nbsp;Tab&lt;/label&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="tab"&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="nhs-container"&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Content&nbsp;in&nbsp;the&nbsp;first&nbsp;tab.&lt;/p&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</div>
+<br />
+<div>&nbsp;&nbsp;&lt;input&nbsp;type="radio"&nbsp;class="nhs-hide"&nbsp;name="tabs"&nbsp;id="tabtwo"&nbsp;/&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&nbsp;class="nhs-tab"&nbsp;for="tabtwo"&gt;Second&nbsp;Tab&lt;/label&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="tab"&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="nhs-container"&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Content&nbsp;in&nbsp;the&nbsp;second&nbsp;tab.&lt;/p&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</div>
+<br />
+<div>&lt;/div&gt;</div>
+</div>
 
 </div>
 
